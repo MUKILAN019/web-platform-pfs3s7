@@ -29,23 +29,26 @@ Important note: Add comments above the tag to mention the HTML element type
     color:blue;
     font-weigth:bold;
   }
-  .lic>nth-child(1){
-    color:"blue";
+ .lic>:nth-child(1){
+  color:blue
+ }
+  .lic>:nth-child(2){
+    color:green;
   }
-  .lic>nth-child(2){
-    color:"green";
+  .lic>:nth-child(3){
+    color:red;
   }
-  .lic>nth-child(3){
-    color:"red";
+  .lic>:nth-child(4){
+    color:azure;
   }
   #h3tag{
-    color:"light green"
+    color:rgb(187, 39, 213);
   }
   .ptag:hover{
-    color:"yellow";
+    color: yellow;
   }
   #ti{
-    color:"pink";
+    color:pink;
   }
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -63,7 +66,7 @@ Important note: Add comments above the tag to mention the HTML element type
   <hr>
   <p class="ptag">Everyone have there own <a href="https://www.burlapandblue.com/list-of-hobbies/"<span id="spa">Hobbies</span></a> MY hobbies are:</p>
   <ul class="lic">
-    <li>Reading books</li>
+    <li class="li1">Reading books</li>
     <li>Playing chess</li>
     <li>Playing cricket</li>
     <li>Drawing</li>
